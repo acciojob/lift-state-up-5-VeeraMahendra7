@@ -13,9 +13,9 @@ const Login = ({isLoggedIn, onLogin}) => {
         <p>You are logged in!</p>
       ):(
         <form onSubmit={handleSubmit}>
-            <label htmlFor='uname'>Username:</label>
+            <label htmlFor='uname'>Username: </label>
             <input type='text' id='uname' required/> <br /><br />
-            <label htmlFor='passwd'>Password:</label>
+            <label htmlFor='passwd'>Password: </label>
             <input type='password' id='passwd' required/> <br /> <br />
             <button type='submit'>Login</button>
         </form>
