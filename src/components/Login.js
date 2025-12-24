@@ -10,7 +10,7 @@ const Login = ({isLoggedIn, onLogin}) => {
   return (
     <div>
       {isLoggedIn ? (
-        <p>You are loggedIn!</p>
+        <p>You are logged in!</p>
       ):(
         <form onSubmit={handleSubmit}>
             <label htmlFor='uname'>Username:</label>
